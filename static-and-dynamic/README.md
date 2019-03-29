@@ -1,7 +1,5 @@
 ## Instructions
 
-### 👉 [Static and dynamic](https://github.com/coding-bridge/front-end-workshop_examples/tree/master/static-and-dynamic) website difference demo
-
 This is an easy demonstration of the difference between static and dynamic website.
 
 #### Installation:
