@@ -1,0 +1,27 @@
+#shuju.section{
+    background-color:pink;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#shuju .projectCard{
+    position:relative;
+}
+
+#shuju .projectCard-details{
+    background-color:black;
+    position:absolute;
+    bottom:-20px;
+    left:8px;
+    color: white;
+    width: 90%;
+    padding:15px;
+}
+#shuju h2{
+    font-size: 28px;
+}
+
+#shuju p{
+    font-size:18px;
+    line-height:1.5em;
+}

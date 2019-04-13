@@ -1,6 +1,4 @@
-/*--start of one section--*/
-
-#vince .container {
+#son .container {
 	min-height: inherit;
 		max-width: 1024px;
 	margin: 0 auto;
@@ -9,21 +7,21 @@
 		justify-content: center;
 }
 
-#vince .card-link {
-	/* display: block; */
+#son .card-link {
+	display: block;
 }
 
-#vince .card-link:hover .card__caption {
+#son .card-link:hover .card__caption {
 	background-color: orange;
 	transition: background-color .3s;
 }
 
-#vince .card {
+#son .card {
 	position: relative;
 	height: 500px;
 }
 
-#vince .card__caption {
+#son .card__caption {
 	position: absolute;
 		bottom: -24px;
 		left: 5%;
@@ -33,13 +31,18 @@
 		box-sizing: border-box;
 	background-color: black;
 	color: white;
+
 	transition: background-color .3s;
 }
 
+
+
+
+
+
+
 @media (max-width: 960px) {
-	#vince .container {
+	#son .container {
 		background-color: green;
 	}
 }
-
-/*--end of one section--*/

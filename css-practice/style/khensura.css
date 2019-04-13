@@ -1,0 +1,43 @@
+
+#Khensura .container {
+
+    min-height: inherit;
+    max-height: 1024px;
+}
+
+#Khensura .card-link {
+    display: block;
+
+
+}
+#Khensura .card {
+    position: "relative";
+    height: 500px;
+}
+
+
+
+.card-note {
+    position: "absolute";
+        bottom: -24px;
+        left: 5%;
+    background-color: black;
+
+    width: 90%;
+		min-height: 64px;
+	    padding: 8px 16px;
+		box-sizing: border-box;
+	background-color: black;
+	color: white;
+
+
+}
+
+
+
+@media(max-width: 960px){
+    #Khensura .container {
+        background-color : purple ;
+
+    }
+}

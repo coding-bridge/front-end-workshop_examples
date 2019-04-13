@@ -1,0 +1,28 @@
+#mingna.meow{
+  margin: 0;
+  display: flex;
+  align-items: left;
+  background-color:blue;
+
+}
+
+#mingna .container{
+
+}
+
+#mingna .cat{
+
+}
+
+#mingna .caption{
+  color:orange;
+}
+
+#mingna .cat{
+  align:center;
+}
+
+#mingna .caption{
+  background-color:turquoise;
+  color:white;
+}
