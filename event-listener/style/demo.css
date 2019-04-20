@@ -1,0 +1,45 @@
+/*--start of one section--*/
+
+#vince .container {
+	min-height: inherit;
+		max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+		align-items: center;
+		justify-content: center;
+}
+
+#vince .card-link {
+	/* display: block; */
+}
+
+#vince .card-link:hover .card__caption {
+	background-color: orange;
+	transition: background-color .3s;
+}
+
+#vince .card {
+	position: relative;
+	height: 500px;
+}
+
+#vince .card__caption {
+	position: absolute;
+		bottom: -24px;
+		left: 5%;
+	width: 90%;
+		min-height: 64px;
+	padding: 8px 16px;
+		box-sizing: border-box;
+	background-color: black;
+	color: white;
+	transition: background-color .3s;
+}
+
+@media (max-width: 960px) {
+	#vince .container {
+		background-color: green;
+	}
+}
+
+/*--end of one section--*/
